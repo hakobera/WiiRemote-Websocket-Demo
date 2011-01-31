@@ -1,0 +1,73 @@
+package com.github.hakobera.wiiremote;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.net.Socket;
+import java.net.UnknownHostException;
+
+import wiiremotej.WiiRemote;
+import wiiremotej.event.WRAccelerationEvent;
+import wiiremotej.event.WRButtonEvent;
+import wiiremotej.event.WRCombinedEvent;
+import wiiremotej.event.WRStatusEvent;
+import wiiremotej.event.WiiRemoteAdapter;
+
+public class WiiRemoteDataDispatcher extends WiiRemoteAdapter {
+
+	private WiiRemote remote;
+	
+	private Socket socket;
+	
+	private PrintWriter output;
+	
+	public WiiRemoteDataDispatcher(WiiRemote remote) throws UnknownHostException, IOException {
+		this.remote = remote;
+		socket = new Socket("127.0.0.1", 9999);
+		output = new PrintWriter(socket.getOutputStream());
+	}
+	
+	public void cleanup() {
+		if (socket != null) {
+			if (output != null) {
+				output.close();
+			}
+
+			try {
+				socket.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+	
+	@Override
+	public void accelerationInputReceived(WRAccelerationEvent event) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void buttonInputReceived(WRButtonEvent event) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void combinedInputReceived(WRCombinedEvent arg0) {
+		// TODO Auto-generated method stub
+	}
+
+	@Override
+	public void disconnected() {
+        System.out.println("Remote disconnected... Please Wii again.");
+        System.exit(1);
+	}
+
+	@Override
+	public void statusReported(WRStatusEvent event) {
+        System.out.printf("Battery level: %f\\%",  (double) event.getBatteryLevel()/2);
+        System.out.printf("Continuous: %s", event.isContinuousEnabled());
+        System.out.printf("Remote continuous: %s", remote.isContinuousEnabled());
+	}
+
+}

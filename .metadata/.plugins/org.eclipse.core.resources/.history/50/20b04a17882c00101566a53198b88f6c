@@ -1,0 +1,50 @@
+package com.github.hakobera.wiiremote;
+
+import wiiremotej.WiiRemote;
+import wiiremotej.WiiRemoteExtension;
+import wiiremotej.event.WRAccelerationEvent;
+import wiiremotej.event.WRButtonEvent;
+import wiiremotej.event.WRCombinedEvent;
+import wiiremotej.event.WRExtensionEvent;
+import wiiremotej.event.WRIREvent;
+import wiiremotej.event.WRStatusEvent;
+import wiiremotej.event.WiiRemoteAdapter;
+
+public class WiiRemoteDataDispatcher extends WiiRemoteAdapter {
+
+	private WiiRemote remote;
+	
+	public WiiRemoteDataDispatcher(WiiRemote remote) {
+		this.remote = remote;
+	}
+	
+	@Override
+	public void accelerationInputReceived(WRAccelerationEvent arg0) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void buttonInputReceived(WRButtonEvent arg0) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void combinedInputReceived(WRCombinedEvent arg0) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void disconnected() {
+		System.out.println("disconnected");
+		System.exit(1);
+	}
+
+	@Override
+	public void statusReported(WRStatusEvent event) {
+		// TODO Auto-generated method stub
+	}
+
+}

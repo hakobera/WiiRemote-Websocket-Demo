@@ -1,0 +1,16 @@
+package com.github.hakobera.wiiremote;
+
+import wiiremotej.WiiRemoteJ;
+
+public class WiiRemoteProxy {
+	
+	public static void main(String[] args) {
+    	System.setProperty("bluecove.jsr82.psm_minimum_off", "true");  
+    	
+        //basic console logging options...
+        //WiiRemoteJ.setConsoleLoggingAll();
+        WiiRemoteJ.setConsoleLoggingOff();
+
+	}
+	
+}
