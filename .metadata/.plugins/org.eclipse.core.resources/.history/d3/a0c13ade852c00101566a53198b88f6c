@@ -1,9 +1,0 @@
-package com.github.hakobera.wiiremote;
-
-public class WiiRemoteProxy {
-	
-	public static void main(String[] args) {
-		
-	}
-	
-}

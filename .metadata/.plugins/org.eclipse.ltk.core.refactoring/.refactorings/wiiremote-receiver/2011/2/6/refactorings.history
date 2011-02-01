@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring accessors="true" comment="Delete element from project &apos;wiiremote-receiver&apos;&#x0A;- Original project: &apos;wiiremote-receiver&apos;&#x0A;- Original element: &apos;com.github.hakobera.wiiremote.WRLImpl.java&apos;" description="Delete element" element1="/src\/main\/java&lt;com.github.hakobera.wiiremote{WRLImpl.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1296570464155" subPackages="false" version="1.0"/>
-</session>
