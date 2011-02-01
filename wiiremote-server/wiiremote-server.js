@@ -29,6 +29,7 @@ net.createServer(function(in_socket){
         //sys.log(in_data);
         var angles = ("" + in_data.toString()).split(',');
         var out = {pitch: angles[0], roll:angles[1]};
+        sys.log(out);
         socket.broadcast(out);
     });
     in_socket.on('error', function (in_exc) {

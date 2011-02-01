@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="42" version="2.0">
+<workbench progressCount="41" version="2.0">
 <workbenchAdvisor/>
-<window height="864" width="855" x="568" y="27">
+<window height="865" maximized="true" width="833" x="610" y="30">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -15,16 +15,18 @@
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="62" y="22"/>
 <coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet" itemType="typeToolBarContribution" x="70" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="84" y="22"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="203" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="120" y="22"/>
 <coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="32" y="22"/>
 <coolItem id="org.eclipse.wst.ws.explorer.explorer" itemType="typeToolBarContribution" x="163" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="54" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="152" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -36,25 +38,29 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
-<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="LICENSE.txt" partName="LICENSE.txt" path="/Users/hakobera/Documents/webgl/wiiremo-demo/lib/WiiRemoteJ/LICENSE.txt" title="LICENSE.txt" tooltip="wiiremo-demo/lib/WiiRemoteJ/LICENSE.txt" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/wiiremo-demo/lib/WiiRemoteJ/LICENSE.txt"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1314" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" path="/Users/hakobera/Documents/webgl/wiiremote-receiver/src/main/java/com/github/hakobera/wiiremote/Main.java" title="Main.java" tooltip="wiiremote-receiver/src/main/java/com/github/hakobera/wiiremote/Main.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/wiiremote-receiver/src/main/java/com/github/hakobera/wiiremote/Main.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="844" selectionTopPixel="87"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WRLImpl.java" partName="WRLImpl.java" path="/Users/hakobera/Documents/webgl/wiiremo-demo/src/WRLImpl.java" title="WRLImpl.java" tooltip="wiiremo-demo/src/WRLImpl.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/wiiremo-demo/src/WRLImpl.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1547" selectionTopPixel="269"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BBImpl.java" partName="BBImpl.java" path="/Users/hakobera/Documents/webgl/wiiremo-demo/src/BBImpl.java" title="BBImpl.java" tooltip="wiiremo-demo/src/BBImpl.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/wiiremo-demo/src/BBImpl.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WiiRemoteReceiver.java" partName="WiiRemoteReceiver.java" path="/Users/hakobera/Documents/webgl/wiiremote-receiver/src/main/java/com/github/hakobera/wiiremote/WiiRemoteReceiver.java" title="WiiRemoteReceiver.java" tooltip="wiiremote-receiver/src/main/java/com/github/hakobera/wiiremote/WiiRemoteReceiver.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/wiiremote-receiver/src/main/java/com/github/hakobera/wiiremote/WiiRemoteReceiver.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1127" selectionTopPixel="88"/>
 </editor>
 </editors>
 <views>
+<view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Type Hierarchy">
+<viewState hidefields="false" hidelocaltypes="false" hidenonpublic="false" hidestatic="false" input="=wiiremote-receiver/WiiRemoteJ\/WiiRemoteJ.jar&lt;wiiremotej.event(WRExtensionEvent.class[WRExtensionEvent" link_editors="0" mv_vertical_scroll="0" orientation="3" qualified_names="0" ratio="350" selection="=wiiremote-receiver/WiiRemoteJ\/WiiRemoteJ.jar&lt;wiiremotej.event(WRExtensionEvent.class[WRExtensionEvent" showinherited="false" sortbydefiningtype="false" vertical_scroll="0" view="2" workingSetName=""/>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView:Console View #2" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView:Console View #1" partName="Console">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
@@ -63,8 +69,7 @@
 </view>
 <view id="org.eclipse.ui.views.AllMarkersView" partName="Markers">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.allSeverityField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="org.eclipse.ui.ide.allMarkersGenerator" partName="Markers">
-<expanded>
-<category IMemento.internal.id="Java Problems (4 items)"/>
+<expanded>&#x0A;<category IMemento.internal.id="Java Problems (4 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.allSeverityField="300" org.eclipse.ui.ide.locationField="84" org.eclipse.ui.ide.markerType="114" org.eclipse.ui.ide.pathField="144" org.eclipse.ui.ide.resourceField="114"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.allSeverityField"/>
@@ -80,15 +85,18 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings (4 items)"/>
+<category IMemento.internal.id="Warnings (9 items)"/>
 </expanded>
-<columnWidths org.eclipse.ui.ide.locationField="84" org.eclipse.ui.ide.markerType="114" org.eclipse.ui.ide.pathField="144" org.eclipse.ui.ide.resourceField="114" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
@@ -123,9 +131,6 @@
 </customFilters>
 </viewState>
 </view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
-<viewState/>
-</view>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List">
 <viewState linkWithEditor="true" presentation="org.eclipse.mylyn.tasks.ui.categorized">
 <sorter groupBy="CATEGORY_QUERY">
@@ -147,7 +152,7 @@
 <view id="org.eclipse.wst.server.ui.ServersView" partName="Servers"/>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.ui.console.ConsoleView:Console View #2" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -223,31 +228,22 @@
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="topLeft">
-<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
-<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackagesView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@7e425258" ratio="0.75" ratioLeft="762" ratioRight="254" relationship="2" relative="topLeft">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@7e425258" ratio="0.75" ratioLeft="762" ratioRight="254" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="254" ratioRight="762" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomRight" ratio="0.6998536" ratioLeft="478" ratioRight="205" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.AllMarkersView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
+<info folder="true" part="bottomRight" ratio="0.6998536" ratioLeft="478" ratioRight="205" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.AllMarkersView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
 <page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
 <page content="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" label="Data Source Explorer"/>
@@ -258,8 +254,7 @@
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
@@ -267,12 +262,9 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="topRight" ratio="0.69947505" ratioLeft="533" ratioRight="229" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="topRight" ratio="0.69947505" ratioLeft="533" ratioRight="229" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
@@ -351,21 +343,24 @@
 <view id="org.eclipse.jdt.ui.JavadocView"/>
 <view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
-<view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
-<view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<view id="org.eclipse.ui.console.ConsoleView:Console View #1"/>
+<view id="org.eclipse.ui.console.ConsoleView:Console View #2"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.jdt.ui.TypeHierarchy"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
 <info folder="true" part="left">
-<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.jdt.ui.TypeHierarchy" appearance="2" expanded="2">
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
-<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="Type Hierarchy"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
 </presentation>
 </folder>
 </info>
@@ -374,15 +369,19 @@
 <page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.24911453" ratioLeft="211" ratioRight="636" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.74900925" ratioLeft="567" ratioRight="190" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<info part="org.eclipse.ui.editorss" ratio="0.18596491" ratioLeft="265" ratioRight="1160" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.65822786" ratioLeft="520" ratioRight="270" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView:Console View #2" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.ui.console.ConsoleView:Console View #1" label="Console"/>
+<page content="org.eclipse.ui.console.ConsoleView:Console View #2" label="Console"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
@@ -392,25 +391,23 @@
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
 </presentation>
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@4749fee8" ratio="0.75" ratioLeft="477" ratioRight="159" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.mylyn.tasks.ui.views.tasks" appearance="2" expanded="2">
-<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="right" ratio="0.49911818" ratioLeft="283" ratioRight="284" relationship="4" relative="org.eclipse.ui.internal.ViewStack@4749fee8">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </mainWindow>
@@ -420,34 +417,164 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/wiiremo-demo/lib/LICENSE.txt"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/wiiremo-demo/lib/WiiRemoteJ/LICENSE.txt"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/wiiremo-demo/src/WRLImpl.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/wiiremo-demo/src/BBImpl.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/wiiremote-receiver/src/main/java/com/github/hakobera/wiiremote/WRLImpl.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/wiiremote-receiver/src/main/java/com/github/hakobera/wiiremote/WiiRemoteProxy.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/wiiremote-receiver/src/main/java/com/github/hakobera/wiiremote/WiiRemoteDataDispatcher.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/wiiremote-receiver/src/main/java/com/github/hakobera/wiiremote/WiiRemoteProxy.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/wiiremote-receiver/src/main/java/com/github/hakobera/wiiremote/Main.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/wiiremote-receiver/src/main/java/com/github/hakobera/wiiremote/WiiRemoteReceiver.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=wiiremote-receiver/WiiRemoteJ\/WiiRemoteJ.jar&lt;wiiremotej(WiiRemoteExtensionFactory.class"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=wiiremote-receiver/WiiRemoteJ\/WiiRemoteJ.jar&lt;wiiremotej.event(WRWiiMotionPlusExtensionEvent.class"/>
 </editors>
-<item historyLabel="LICENSE.txt" index="0">
+<item historyLabel="WiiRemoteProxy.java" index="1">
+<position info="not_deleted" x="1099" y="0"/>
+</item>
+<item historyLabel="WiiRemoteDataDispatcher.java" index="2">
+<position info="not_deleted" x="1027" y="0"/>
+</item>
+<item historyLabel="WiiRemoteProxy.java" index="1">
+<position info="not_deleted" x="904" y="0"/>
+</item>
+<item historyLabel="WiiRemoteDataDispatcher.java" index="2">
+<position info="not_deleted" x="1027" y="0"/>
+</item>
+<item historyLabel="WiiRemoteDataDispatcher.java" index="2">
+<position info="not_deleted" x="1596" y="0"/>
+</item>
+<item historyLabel="WRLImpl.java" index="0">
+<position info="not_deleted" x="8350" y="240"/>
+</item>
+<item historyLabel="WiiRemoteDataDispatcher.java" index="2">
+<position info="not_deleted" x="1938" y="0"/>
+</item>
+<item historyLabel="WRLImpl.java" index="0">
+<position info="not_deleted" x="8187" y="96"/>
+</item>
+<item historyLabel="WiiRemoteDataDispatcher.java" index="2">
+<position info="not_deleted" x="1734" y="0"/>
+</item>
+<item historyLabel="WRLImpl.java" index="0">
+<position info="not_deleted" x="8869" y="0"/>
+</item>
+<item historyLabel="WiiRemoteDataDispatcher.java" index="2">
+<position info="not_deleted" x="1484" y="0"/>
+</item>
+<item historyLabel="WRLImpl.java" index="0">
+<position info="not_deleted" x="7830" y="166"/>
+</item>
+<item historyLabel="WiiRemoteProxy.java" index="1">
+<position info="not_deleted" x="1099" y="0"/>
+</item>
+<item historyLabel="WRLImpl.java" index="0">
+<position info="not_deleted" x="8647" y="0"/>
+</item>
+<item historyLabel="WiiRemoteProxy.java" index="1">
+<position info="not_deleted" x="782" y="3"/>
+</item>
+<item historyLabel="WiiRemoteDataDispatcher.java" index="2">
+<position info="not_deleted" x="512" y="0"/>
+</item>
+<item historyLabel="WiiRemoteProxy.java" index="1">
+<position info="not_deleted" x="782" y="3"/>
+</item>
+<item historyLabel="WiiRemoteProxy.java" index="1">
+<position info="not_deleted" x="1060" y="0"/>
+</item>
+<item historyLabel="WiiRemoteDataDispatcher.java" index="2">
+<position info="not_deleted" x="512" y="0"/>
+</item>
+<item historyLabel="WiiRemoteDataDispatcher.java" index="2">
+<position info="not_deleted" x="852" y="0"/>
+</item>
+<item historyLabel="WiiRemoteDataDispatcher.java" index="2">
+<position info="not_deleted" x="722" y="0"/>
+</item>
+<item historyLabel="WiiRemoteDataDispatcher.java" index="2">
+<position info="not_deleted" x="722" y="0"/>
+</item>
+<item historyLabel="WiiRemoteDataDispatcher.java" index="2">
+<position info="not_deleted" x="1375" y="0"/>
+</item>
+<item historyLabel="WRLImpl.java" index="0">
+<position info="not_deleted" x="6647" y="0"/>
+</item>
+<item historyLabel="WiiRemoteDataDispatcher.java" index="2">
+<position info="not_deleted" x="1376" y="0"/>
+</item>
+<item historyLabel="WiiRemoteProxy.java" index="1">
+<position info="not_deleted" x="605" y="0"/>
+</item>
+<item historyLabel="WiiRemoteDataDispatcher.java" index="2">
+<position info="not_deleted" x="1803" y="88"/>
+</item>
+<item historyLabel="WiiRemoteDataDispatcher.java" index="2">
+<position info="not_deleted" x="1739" y="0"/>
+</item>
+<item historyLabel="WiiRemoteProxy.java" index="1">
+<position info="not_deleted" x="908" y="0"/>
+</item>
+<item historyLabel="WiiRemoteDataDispatcher.java" index="2">
+<position info="not_deleted" x="1739" y="0"/>
+</item>
+<item historyLabel="WiiRemoteDataDispatcher.java" index="2">
+<position info="not_deleted" x="1224" y="0"/>
+</item>
+<item historyLabel="WiiRemoteProxy.java" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="LICENSE.txt" index="1">
-<position info="not_deleted" x="1314" y="0"/>
+<item historyLabel="Main.java" index="4">
+<position info="not_deleted" x="282" y="0"/>
 </item>
-<item historyLabel="WRLImpl.java" index="2">
+<item historyLabel="WiiRemoteReceiver.java" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="WRLImpl.java" index="2">
-<position info="not_deleted" x="526" y="0"/>
+<item historyLabel="WiiRemoteReceiver.java" index="5">
+<position/>
 </item>
-<item historyLabel="WRLImpl.java" index="2">
-<position info="not_deleted" x="1709" y="0"/>
+<item historyLabel="WiiRemoteReceiver.java" index="5">
+<position info="not_deleted" x="1678" y="0"/>
 </item>
-<item historyLabel="BBImpl.java" index="3">
+<item historyLabel="Main.java" index="4">
+<position info="not_deleted" x="282" y="0"/>
+</item>
+<item historyLabel="Main.java" index="4">
+<position info="not_deleted" x="844" y="0"/>
+</item>
+<item historyLabel="WiiRemoteReceiver.java" index="5">
+<position/>
+</item>
+<item historyLabel="Main.java" index="4">
+<position info="not_deleted" x="894" y="0"/>
+</item>
+<item historyLabel="WiiRemoteReceiver.java" index="5">
+<position/>
+</item>
+<item historyLabel="Main.java" index="4">
+<position info="not_deleted" x="847" y="0"/>
+</item>
+<item historyLabel="WiiRemoteReceiver.java" index="5">
+<position/>
+</item>
+<item historyLabel="Main.java" index="4">
+<position info="not_deleted" x="844" y="0"/>
+</item>
+<item historyLabel="WiiRemoteReceiver.java" index="5">
+<position/>
+</item>
+<item historyLabel="WiiRemoteExtensionFactory.class" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="WRLImpl.java" index="2">
-<position info="not_deleted" x="1709" y="0"/>
+<item historyLabel="WRWiiMotionPlusExtensionEvent.class" index="7">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="WRLImpl.java" index="2">
-<position info="not_deleted" x="1504" y="0"/>
+<item historyLabel="WiiRemoteExtensionFactory.class" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="WiiRemoteReceiver.java" index="5">
+<position info="not_deleted" x="1127" y="0"/>
+</item>
+<item active="true" historyLabel="Main.java" index="4">
+<position info="not_deleted" x="844" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -457,11 +584,6 @@
 <trimLayout>
 <trimArea IMemento.internal.id="16384">
 <trimItem IMemento.internal.id="left"/>
-</trimArea>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="right"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@4749fee8"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
 </trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
@@ -476,6 +598,33 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="WRWiiMotionPlusExtensionEvent.class" tooltip="wiiremotej.event.WRWiiMotionPlusExtensionEvent">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=wiiremote-receiver/WiiRemoteJ\/WiiRemoteJ.jar&lt;wiiremotej.event(WRWiiMotionPlusExtensionEvent.class"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="WiiRemoteExtensionFactory.class" tooltip="wiiremotej.WiiRemoteExtensionFactory">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=wiiremote-receiver/WiiRemoteJ\/WiiRemoteJ.jar&lt;wiiremotej(WiiRemoteExtensionFactory.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WiiRemoteReceiver.java" tooltip="wiiremote-receiver/src/main/java/com/github/hakobera/wiiremote/WiiRemoteReceiver.java">
+<persistable path="/wiiremote-receiver/src/main/java/com/github/hakobera/wiiremote/WiiRemoteReceiver.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WiiRemoteProxy.java" tooltip="wiiremote-receiver/src/main/java/com/github/hakobera/wiiremote/WiiRemoteProxy.java">
+<persistable path="/wiiremote-receiver/src/main/java/com/github/hakobera/wiiremote/WiiRemoteProxy.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WiiRemoteDataDispatcher.java" tooltip="wiiremote-receiver/src/main/java/com/github/hakobera/wiiremote/WiiRemoteDataDispatcher.java">
+<persistable path="/wiiremote-receiver/src/main/java/com/github/hakobera/wiiremote/WiiRemoteDataDispatcher.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WRLImpl.java" tooltip="wiiremote-receiver/src/main/java/com/github/hakobera/wiiremote/WRLImpl.java">
+<persistable path="/wiiremote-receiver/src/main/java/com/github/hakobera/wiiremote/WRLImpl.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="changelog.txt" tooltip="wiiremote-sample/WiiRemoteJ/changelog.txt">
+<persistable path="/wiiremote-sample/WiiRemoteJ/changelog.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="LICENSE.txt" tooltip="wiiremote-sample/WiiRemoteJ/LICENSE.txt">
+<persistable path="/wiiremote-sample/WiiRemoteJ/LICENSE.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="pom.xml" tooltip="wiiremote-sample/pom.xml">
+<persistable path="/wiiremote-sample/pom.xml"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BBImpl.java" tooltip="wiiremo-demo/src/BBImpl.java">
 <persistable path="/wiiremo-demo/src/BBImpl.java"/>
 </file>

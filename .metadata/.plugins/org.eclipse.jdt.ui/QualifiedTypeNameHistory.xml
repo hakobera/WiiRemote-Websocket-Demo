@@ -1,2 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.github.hakobera.wiiremote.WiiRemoteProxy.DataProvider"/>
+<fullyQualifiedTypeName name="wiiremotej.event.WiiRemoteListener"/>
+<fullyQualifiedTypeName name="wiiremotej.event.WiiRemoteAdapter"/>
+<fullyQualifiedTypeName name="com.github.hakobera.wiiremote.WiiRemoteDataDispatcher"/>
+<fullyQualifiedTypeName name="java.net.Socket"/>
+<fullyQualifiedTypeName name="java.io.OutputStream"/>
+<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="wiiremotej.event.WRWiiMotionPlusExtensionEvent"/>
+<fullyQualifiedTypeName name="wiiremotej.WiiRemoteExtension"/>
+<fullyQualifiedTypeName name="wiiremotej.WiiRemoteExtensionFactory"/>
+</qualifiedTypeNameHistroy>

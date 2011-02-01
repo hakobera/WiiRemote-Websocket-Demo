@@ -27,16 +27,16 @@
       <file leaf-file-name="client.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wiiremote-client/client.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="25" selection-start="119" selection-end="119" vertical-scroll-proportion="-3.0">
+            <state line="6" column="17" selection-start="152" selection-end="152" vertical-scroll-proportion="-3.6">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wiiremote-server.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="wiiremote-server.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wiiremote-server/wiiremote-server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="22" selection-start="858" selection-end="858" vertical-scroll-proportion="0.49083215">
+            <state line="10" column="20" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -60,10 +60,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="client.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="client.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wiiremote-client/client.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="17" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
+            <state line="8" column="19" selection-start="119" selection-end="119" vertical-scroll-proportion="0.13832854">
               <folding />
             </state>
           </provider>
@@ -87,8 +87,8 @@
         <option value="$PROJECT_DIR$/wiiremote-client/wiiremote-client.js" />
         <option value="$PROJECT_DIR$/wiiremote-client/constants.js" />
         <option value="$PROJECT_DIR$/wiiremote-client/client.html" />
-        <option value="$PROJECT_DIR$/wiiremote-client/client.js" />
         <option value="$PROJECT_DIR$/wiiremote-server/wiiremote-server.js" />
+        <option value="$PROJECT_DIR$/wiiremote-client/client.js" />
       </list>
     </option>
   </component>
@@ -162,6 +162,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wiiremote-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webgl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webgl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wiiremote-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="socket.io-client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -264,6 +282,13 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wiiremote-client/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="29" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wiiremote-client/socket.io-client/socket.io.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -273,28 +298,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wiiremote-client/client.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="25" selection-start="119" selection-end="119" vertical-scroll-proportion="-3.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wiiremote-client/constants.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="29" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wiiremote-client/client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="17" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
+        <state line="6" column="17" selection-start="152" selection-end="152" vertical-scroll-proportion="-3.6">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wiiremote-server/wiiremote-server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="22" selection-start="858" selection-end="858" vertical-scroll-proportion="0.49083215">
+        <state line="10" column="20" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wiiremote-client/client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="19" selection-start="119" selection-end="119" vertical-scroll-proportion="0.13832854">
           <folding />
         </state>
       </provider>
